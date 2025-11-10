@@ -4,7 +4,7 @@
 ## Steps to Run Prompt Chain
 
 ### 1. Copy the content of 'orch-discovery.md'
-- Copy the content of 'orch-discovery.md' from this Repository.
+- Copy the content of 'orch-discovery.md' from this Repository, located in the SOP folder.
   
 ### 2. Start new Copilot Chat Session
 - Paste the content of 'orch-discovery.md' into the chat.
