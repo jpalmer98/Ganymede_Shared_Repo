@@ -1,5 +1,5 @@
 
-# Requirements Refinement Workflow SOP
+# Research & Discovery SOP
 
 ## Steps to Run Prompt Chain
 
