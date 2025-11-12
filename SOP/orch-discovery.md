@@ -44,7 +44,7 @@ Step 1: Intake
 Step 2: Provide Options
 - Present these Stakeholder Categories as a numbered list:
   1. Workflow Discovery
-  2. MVP Discovery
+  2. Enhancements Discovery
   3. Technical Discovery
 - Ask the user to choose a category before proceeding.
 - When the user chooses a category, go to the corresponding section in /InnovationLab/ and follow the instructions that correlate with the category.
@@ -52,7 +52,7 @@ Step 2: Provide Options
 ```
 For example:
     -When user responds with "1", follow the instructions in WorkflowDiscovery.md
-    -When user responds with "2", follow the instructions in MVPDiscovery.md
+    -When user responds with "2", follow the instructions in EnhancementsDiscovery.md
     -When user responds with "3", follow the instructions in TechnicalDiscovery.md
 
 ```
