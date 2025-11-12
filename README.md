@@ -36,7 +36,7 @@ The Input outlined here should produce one markdown (.md) file.
 The chain inititates a collaborative refinement session, using the prompt files in `ResearchDiscovery/`:
 
 1. `WorkflowDiscovery.md` - Output: Current State Workflow & Future State Workflow
-3. `MVPDiscovery.md` - Output: Edge Cases & Enhancements
+3. `EnhancementsDiscovery.md` - Output: Edge Cases & Enhancements
 4. `TechnicalDiscovery.md` - Output: Data Sources, Data Elemenets, & Technical Logic
 
 For each step:
