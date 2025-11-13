@@ -5,7 +5,7 @@ Step 1:
 - Each numbered list should contain information pulled directly from the source file.
 - After the numbered list(s) is produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
 
-### Required Outputs
+Required Outputs
 - Based on the attached Source File, create a numbered list titled 'Data Sources' with the following information:
   - Data Source / Application
   - Definition or Description of the Data Source / Application
