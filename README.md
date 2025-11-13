@@ -23,8 +23,8 @@
 ## How It Works
 
 The Input outlined here should produce one markdown (.md) file.
-- The first output will be titled `Questions.md` and will be blank.
-- After Questions are drafted in the chat, you will have the opportunity to refine and approve the list of questions, at which point they will be added to the `Questions.md` file.
+- The first two outputs will be titled `Questions.md` and `Definitions.md`. These files will be created as markdown files and viewable in the Workbench with a one sentece description of the purpose of the file.
+- After Questions and/or Terms and Definitions are drafted in the chat, you will have the opportunity to refine and approve the list of questions, at which point they will be added to the `Questions.md` or `Definitions.md` file.
 
 ### 1. Input
 
