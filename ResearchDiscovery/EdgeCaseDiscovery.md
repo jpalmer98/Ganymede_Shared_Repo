@@ -3,6 +3,7 @@
 Step 1:
 - Produce a table for the Required Output below.
 - The table should contain information pulled directly from the source file.
+- Proceed to step 2 automatically, without user intervention or confirmation.
 
 Required Outputs
 - Based on the attached Source File, create a table titled 'Edge Cases' with the following columns:
@@ -15,7 +16,6 @@ Step 2: Refinement
 - For refinement, format your responce within a code block and following the example below.
 - Use only `#` for original text, `>` for recommendations, and `>>` for reasoning.
 - Continue to work through a category until you deduce that sufficient changes were made and revisions were shared.
-- Ask the user if they would like to continue refining within that category or if they would like to refine within another category.
 
 Example:
 
