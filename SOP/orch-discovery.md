@@ -38,6 +38,8 @@ Step 1: Intake
 - Ingest Source Files listed above and attached to the Copilot Chat Session.
 - Create the `Questions.md` file in the workbench. Generate a one sentece description at the top of the file stating the purpose of the file.
   - `Questions.md` will serve as a ledger used to record questions that have been approved by the user in a chat session.
+- Create the `EdgeCases.md` file in the workbench. Generate a one sentece description at the top of the file stating the purpose of the file.
+  - `EdgeCases.md` will serve as a ledger used to record questions that have been approved by the user in a chat session.
 - Create the `Definitions.md` file in the workbench. Generate a one sentece description at the top of the file stating the purpose of the file.
   - `Definitions.md` will serve as a ledger used to record questions that have been approved by the user in a chat session.
 
@@ -65,6 +67,7 @@ Step 3: Completion & Wrap-up
 - Once the user confirms that they are done with a category:
   - Always preserve and display the original discovery numbering for each item when recording accepted recommendations in session artifacts (e.g., Questions.md), regardless of acceptance order or count.
   - Populate the `Questions.md` file with all of the approved questioned generated during the chat session.
+  - Populate the `EdgeCases.md` file with all of the approved Edge Cases and definitions generated during the chat session.
   - Populate the `Definitions.md` file with all of the approved terms (Data Sources and Data Elements) and definitions generated during the chat session.
   - Preserve original numbers for traceability. Do not renumber within an active session.
   - Confirm completion with the user before ending.
