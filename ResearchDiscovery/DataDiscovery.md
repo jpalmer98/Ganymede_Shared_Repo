@@ -1,16 +1,19 @@
-## 3. Technical Discovery
+## 3. Data Discovery
 ### Instructions
-- Produce a table for each of the Required Outputs below.
-- Each table should contain information pulled directly from the source file.
-- After the table(s) is produced, prompt the user to refine the Clarifying Questions. If the user accepts, follow the instructions provided in Step 3 of the orchestrating prompt.
+- Produce a numbered list for each of the Required Outputs below.
+- Each numbered list should contain information pulled directly from the source file.
+- After the numbered list(s) is produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
+- Upon user acceptance, skip Step 3 in the orchestrating prompt and follow the instructions provided in Step 4.
 
 ### Required Outputs
-- Based on the attached Source File, create a table titled 'Data Sources' with the following columns:
-  - Columns: Data Source / Application | Usage Description | Produced / Consumed Data | Limitation / Gap | Clarifying Question(s) | Citations
-- Based on the attached Source File, create a table titled 'Data Elements' with the following columns:
-  - Columns: Data Element | Usage Description | Produced / Consumed Data | Limitation / Gap | Clarifying Question(s) | Citations
-- Based on the attached Source File, create a table titled 'Technical Logic' with the following columns:
-  - Columns: Step # | Component | Input(s) | Transformation | Output | Clarifying Question | Citations
+- Based on the attached Source File, create a numbered list titled 'Data Sources' with the following information:
+  - Data Source / Application
+  - Definition or Description of the Data Source / Application
+  - Citations
+- Based on the attached Source File, create a numbered list titled 'Data Elements' with the following information:
+  - Data Element
+  - Definition or Description of the Data Element
+  - Citations
 
 ### Data Source vs Data Element Differentiation Rules:
 - Data Source / Application: A system, service, repository, platform, tool, database, API, queue, or external partner interface that produces, stores, or consumes sets of data. Represents a macro container or integration endpoint (e.g., “Claims Adjudication System”, “Document Repository API”).
@@ -82,54 +85,3 @@ Do not register as a distinct Data Element if:
 - It is a static literal value (e.g., hard-coded label) unlikely to change or require governance.
 - It is solely a transport wrapper (e.g., pagination token) with no business meaning.
 - It is replaced immediately by a standardized canonical element at ingestion.
-
-### Technical Logic Table - Branching & Conditional Flow Handling:
-- One row = one atomic transformation or decision evaluation.
-- Step #:
-  - Use integers for linear sequence (1, 2, 3).
-  - For branches emerging from a prior step, append a letter (e.g., 3a, 3b) for mutually exclusive paths.
-  - For converging steps after branches merge, resume next integer (e.g., 4).
-- Conditional Transformations:
-  - Place the condition predicate at the start of the Transformation cell in square brackets (e.g., “[If claim priority = High] Recalculate allocation score…”).
-  - If multiple conditions apply, separate them with “;” inside the brackets.
-- Loops / Iteration:
-  - Indicate iteration in Transformation cell using “[Loop: each Document]”.
-  - Reuse Step # with letters if the loop contains conditional sub‑branches (e.g., 5a, 5b inside a loop).
-- Parallel Processes:
-  - If two operations occur in parallel, use the same base Step # with different letters (e.g., 6a, 6b) and state “[Parallel]” in Transformation.
-- Clarifying Question:
-  - Each branch row must have a branch‑specific clarifying question unless source explicitly resolves all logic.
-  - Do not combine multiple branch conditions in one row (“double‑barreled”); split rows instead.
-
-Technical Logic Guardrails:
-
-Techinical Logic: An atomic, deterministic (or intentionally non‑deterministic) operation, decision, orchestration action, transformation, validation, routing, persistence, security enforcement, or error handling activity performed by a system component that:
-- Consumes one or more inputs (data elements, events, states, external responses)
-- Applies defined rules, algorithms, mappings, or conditions
-- Produces an output (state change, data structure, event, decision, side effect)
-- Advances a workflow toward its intended outcome or guards against invalid progression
-
-A “step” should be granular enough to be testable and traceable (single responsibility), but not so fine-grained that trivial language-level statements (e.g., variable assignment) are cataloged.
-
----
-
-Inclusion Criteria (Treat as a Technical Logic Step when MOST apply)
-
-1. Business or System Significance: Drives a rule, decision, compliance, security, or state transition.
-2. Explicit Inputs & Outputs: Clearly identifiable input set and resultant output/state.
-3. Non-Trivial Transformation: More than a simple pass-through; includes mapping, calculation, validation, enrichment, branching, or orchestration.
-4. Failure Modes: Has identifiable error/exception or timeout scenarios needing handling.
-5. Testability: Can be unit/integration tested with measurable acceptance criteria.
-6. Traceability Need: Stakeholders may audit, debug, optimize, or govern its behavior.
-7. Reuse / Centralization: Logic appears across multiple flows/components or should be centralized to avoid duplication.
-
----
-
-Exclusion Criteria (If ANY True → Do NOT Catalog Separately)
-
-- Pure framework boilerplate (dependency injection wiring, trivial getters/setters).
-- Simple data pass-through with zero transformation or validation.
-- UI-only presentation formatting (e.g., styling decisions) with no functional impact.
-- One-off inline code that will not be reused nor audited and poses negligible risk.
-- Temporary development/testing scaffolding (stubs, mocks, placeholder branches).
-- Logic wholly encapsulated by a standard library call without custom parameters of significance.
