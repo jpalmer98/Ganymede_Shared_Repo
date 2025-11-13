@@ -2,7 +2,7 @@
 ### Instructions
 - Produce a table for each of the Required Outputs below.
 - Each table should contain information pulled directly from the source file.
-- After the table(s) is produced, prompt the user to refine the Clarifying Questions. If the user accepts, follow the instructions provided in Step 3 above.
+- After the table(s) is produced, prompt the user to refine the Clarifying Questions. If the user accepts, follow the instructions provided in Step 3 of the orchestrating prompt.
 
 ### Required Outputs
 - Based on the attached Source File, create a table titled 'Data Sources' with the following columns:
