@@ -6,7 +6,7 @@
 
 ### Required Outputs
 - Based on the attached Source File, create a table titled 'Edge Cases' with the following columns:
-  - Columns: Edge Case | Trigger / Condition | Handling Described | Limitation | Clarifying Question | Citations
+  - Columns: Edge Case | Trigger / Condition | Limitation | Clarifying Question | Citations
  
 ## Edge Case Guardrails
 - Edge Case: A low-frequency, atypical, boudary, degraded, concurrent, or anomalous condition that:
