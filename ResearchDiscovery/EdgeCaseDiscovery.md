@@ -1,13 +1,16 @@
 # Edge Case Discovery
 ## Instructions
+Step 1:
 - Produce a table for the Required Output below.
 - The table should contain information pulled directly from the source file.
 - After the table is produced, follow the instructions provided in Step 3 of the orchestrating prompt.
 
-### Required Outputs
+Required Outputs
 - Based on the attached Source File, create a table titled 'Edge Cases' with the following columns:
   - Columns: Edge Case | Trigger / Condition | Limitation | Clarifying Question | Citations
- 
+
+Step 2: Refinement
+
 ## Edge Case Guardrails
 - Edge Case: A low-frequency, atypical, boudary, degraded, concurrent, or anomalous condition that:
   - Causes a workflow to diverge from the standard or "happy" path
