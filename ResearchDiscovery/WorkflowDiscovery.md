@@ -2,7 +2,7 @@
 ## Instructions
 - Produce a table for each of the Required Outputs below.
 - Each table should contain information pulled directly from the source file.
-- After the table(s) is produced, follow the instructions provided in Step 3.
+- After the table(s) is produced, follow the instructions provided in Step 3 of the orchestrating prompt.
 
 ### Required Outputs
 - Based on the attached Source Files, create a table titled 'Current State Workflow' with the following columns:
