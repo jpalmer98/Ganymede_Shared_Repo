@@ -1,4 +1,4 @@
-## 3. Data Discovery
+## Data Discovery
 ### Instructions
 - Produce a numbered list for each of the Required Outputs below.
 - Each numbered list should contain information pulled directly from the source file.
