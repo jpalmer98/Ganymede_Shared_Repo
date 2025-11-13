@@ -3,20 +3,19 @@
 Step 1:
 - Produce a numbered list for each of the Required Outputs below.
 - Each numbered list should contain information pulled directly from the source file.
-- After the numbered list(s) is produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
+- Proceed to step 2 automatically, without user intervention or confirmation.
 
 Required Outputs
 - Based on the attached Source File, create a numbered list titled 'Data Sources' with the following information:
-  - Data Source / Application
-  - Definition or Description of the Data Source / Application
+  - Data Source
+  - Definition of the Data Source
   - Citations
 - Based on the attached Source File, create a numbered list titled 'Data Elements' with the following information:
   - Data Element
-  - Definition or Description of the Data Element
+  - Definition of the Data Element
   - Citations
 
 Step 2: Refinement
-- After the numbered lists are produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
 - Use the format below to provide recommendations to refine the questions for each category. 
   - Do not paraphrase or truncate original text only update text in clarifying questions, recommendations, reasoning.
 - For refinement, format your responce within a code block and following the example below.
