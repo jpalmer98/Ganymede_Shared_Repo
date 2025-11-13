@@ -32,6 +32,16 @@ Numbering Recommendations for User Selection
 > - If a recommendation is edited, removed, or new ones are added before user acceptance, preserve original numbers for traceability. Do not renumber within an active session.
 > - When the user specifies numbers, implement only those numbered recommendations and disregard or defer the others.
 
+## Citation Format (Citations column only)
+
+Citation Format (Citations column only): Required Pattern (single citation): (Source: <filename.ext>, "<exact line number(s) in Source File>")
+
+Rules:
+
+Capitalization: “Source” capital S; filename exactly as in source.
+Comma: Place a comma after the filename.ext.
+Reuse: The same citation may be reused across multiple rows when the same excerpt supports multiple concepts/questions.
+
 ## Edge Case Guardrails
 - Edge Case: A low-frequency, atypical, boudary, degraded, concurrent, or anomalous condition that:
   - Causes a workflow to diverge from the standard or "happy" path
