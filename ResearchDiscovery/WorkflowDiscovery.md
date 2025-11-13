@@ -3,6 +3,7 @@
 Step 1:
 - Produce a table for each of the Required Outputs below.
 - Each table should contain information pulled directly from the source file.
+- Proceed to step 2 automatically, without user intervention or confirmation.
 
 Required Outputs
 - Based on the attached Source Files, create a table titled 'Current State Workflow' with the following columns:
