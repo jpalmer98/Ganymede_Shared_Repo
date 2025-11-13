@@ -19,10 +19,9 @@
 - Data Source / Application: A system, service, repository, platform, tool, database, API, queue, or external partner interface that produces, stores, or consumes sets of data. Represents a macro container or integration endpoint (e.g., “Claims Adjudication System”, “Document Repository API”).
 - Data Element: An atomic field, derived field, code, identifier, flag, status, value range, or calculable metric (e.g., “Claim Priority”, “EP Code”, “Submission Timestamp”).
 - Avoid Duplication:
-  - Do NOT list a Data Source name in the Data Elements table.
-  - Every Data Element row should be mappable to at least one Data Source (cite the source file excerpt mentioning both when available).
+  - Do NOT list a Data Source name in the Data Elements list.
+  - Every Data Element line should be mappable to at least one Data Source (cite the source file excerpt mentioning both when available).
   - If a Data Element is derived from multiple Data Sources, cite all relevant excerpts separated by semicolons.
-  - Produced / Consumed Data (in Data Sources table): List only categories or representative examples of Data Elements (not whole records) referenced in the source; each should appear (or be planned to appear) in the Data Elements table.
 
 ### Data Source Guardrails
 
