@@ -28,7 +28,7 @@ The Input outlined here should produce one markdown (.md) file.
 
 ### 1. Input
 
-- Attach the `Artifacts` folder which contains the source material (Demo Transcript, Technical Transition Doc, and Sample Code).
+- Attach the `IMEA.Artifacts` folder which contains the source material (Demo Transcript, Technical Transition Doc, and Sample Code).
 - Attach the BID_Requirements_Team_Repo/ResearchDiscover/ folder which contains the prompt files for Question discovery.
 - Copy & Paste `orch-discovery.md` which contains the orchestrating prompt.
 
@@ -37,13 +37,13 @@ The Input outlined here should produce one markdown (.md) file.
 The chain inititates a collaborative refinement session, using the prompt files in `ResearchDiscovery/`:
 
 1. `WorkflowDiscovery.md` - Output: Current State Workflow & Future State Workflow
-3. `EnhancementsDiscovery.md` - Output: Edge Cases & Enhancements
-4. `TechnicalDiscovery.md` - Output: Data Sources, Data Elemenets, & Technical Logic
+3. `EdgeCasesDiscovery.md` - Output: Edge Cases
+4. `DataDiscovery.md` - Output: Data Sources & Data Elemenets
 
 For each step:
 - Copilot will ingest the artifacts and prompts.
 - Copilot will ask the user to select a category to proceed.
-- Copilot will produce tables with information pulled from artifacts. Each row will include a citation for tracking. Each row will include a Question.
-- Copilot will pull the questions into a numbered list.
-- The user can accept, refine, or reject questions, by number, and Copilot will update the list.
-- When the user approves a list of questions, they are added to the `Questions.md` file
+- Copilot will produce tables or lists with information pulled from artifacts. Each row will include a citation for tracking.
+- Copilot will pull the questions and/or definitions into a numbered list.
+- The user can accept, refine, or reject questions/definitions, by number, and Copilot will update the list.
+- When the user approves a list of questions/definitions, they are added to the `Questions.md` file or `Definitions.md` file, respectively.
