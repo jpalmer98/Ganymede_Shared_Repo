@@ -36,14 +36,16 @@ Rules:
 
 Step 1: Intake
 - Ingest Source Files listed above and attached to the Copilot Chat Session.
-- Create the `Questions.md` file in the workbench. Do not populate the file yet, leave blank.
+- Create the `Questions.md` file in the workbench. Generate a one sentece description at the top of the file stating the purpose of the file.
   - `Questions.md` will serve as a ledger used to record questions that have been approved by the user in a chat session.
-    
+- Create the `Definitions.md` file in the workbench. Generate a one sentece description at the top of the file stating the purpose of the file.
+  - `Definitions.md` will serve as a ledger used to record questions that have been approved by the user in a chat session.
+
 Step 2: Provide Options
 - Present these Categories as a numbered list:
   1. Workflow Discovery
-  2. Enhancements Discovery
-  3. Technical Discovery
+  2. Edge Cases Discovery
+  3. Data Discovery
 - Ask the user to choose a category before proceeding.
 - When the user chooses a category, go to the corresponding section in /InnovationLab/ and follow the instructions that correlate with the category.
 
@@ -59,12 +61,12 @@ For example:
 
 ---
 
-Step 4: Completion & Wrap-up
+Step 3: Completion & Wrap-up
 - Once the user confirms that they are done with a category:
-  - Summarize the changes in 2 paragraphs or less (300 words max).
   - Preserve original numbers for traceability. Do not renumber within an active session.
   - Populate the `Questions.md` file with all of the approved questioned generated during the chat session.
-  - In `Questions.md`, categorize the questions under one of the following stakeholder titles (Innovation Lab, Dev Team, UI/UX Team, The Business). The question should be placed in the category of stakeholder based on who is most likely to effectively answer the question.
+  - Populate the `Definitions.md` file with all of the approved terms (Data Sources and Data Elements) and definitions generated during the chat session.
+  - Preserve original numbers for traceability. Do not renumber within an active session.
   - Confirm completion with the user before ending.
   
 ---
