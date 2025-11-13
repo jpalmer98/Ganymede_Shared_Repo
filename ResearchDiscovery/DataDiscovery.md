@@ -1,9 +1,9 @@
 ## Data Discovery
 ### Instructions
+Step 1:
 - Produce a numbered list for each of the Required Outputs below.
 - Each numbered list should contain information pulled directly from the source file.
 - After the numbered list(s) is produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
-- Upon user acceptance, skip Step 3 in the orchestrating prompt and follow the instructions provided in Step 4.
 
 ### Required Outputs
 - Based on the attached Source File, create a numbered list titled 'Data Sources' with the following information:
@@ -14,6 +14,10 @@
   - Data Element
   - Definition or Description of the Data Element
   - Citations
+
+Step 2: Refinement
+- After the numbered list(s) is produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
+
 
 ### Data Source vs Data Element Differentiation Rules:
 - Data Source / Application: A system, service, repository, platform, tool, database, API, queue, or external partner interface that produces, stores, or consumes sets of data. Represents a macro container or integration endpoint (e.g., “Claims Adjudication System”, “Document Repository API”).
