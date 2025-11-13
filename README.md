@@ -8,6 +8,7 @@
   
 ### 2. Start new Copilot Chat Session
 - Paste the content of 'orch-discovery.md' into the chat.
+- Insert the exact file names of the Artifacts in the designated section of the orchestrating prompt.
   
 ### 3. Attach the following files
 - Select **'Attach'**, then **'Files, Folders, Symbols'**
@@ -15,7 +16,7 @@
 - Attach **'ResearchDiscovery'** folder
 - Select **'Attach'**, then **'Files, Folders, Symbols'**
 - Select this Repository
-- Attach **'Artifacts'**
+- Attach **'IMEA.Artifacts'**
   
 ### 4. Submit
 
