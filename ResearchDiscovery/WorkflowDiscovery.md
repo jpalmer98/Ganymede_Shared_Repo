@@ -4,7 +4,7 @@ Step 1:
 - Produce a table for each of the Required Outputs below.
 - Each table should contain information pulled directly from the source file.
 
-### Required Outputs
+Required Outputs
 - Based on the attached Source Files, create a table titled 'Current State Workflow' with the following columns:
   - Columns: Step # | Action | Pain Point / Limitation | Clarifying Question | Citations
 - Based on the attached Source Files, create a table titled 'Future State Workflow' with the following columns:
@@ -33,7 +33,7 @@ Step 2: Refinement
 > Remove redundant phrase.
 >> Reduces wordiness.
 ```
-## Numbering Recommendations for User Selection
+Numbering Recommendations for User Selection
 
 > - Number each recommendation sequentially, starting at 1, within each discovery sub-category.
 > - If a recommendation is edited, removed, or new ones are added before user acceptance, preserve original numbers for traceability. Do not renumber within an active session.
