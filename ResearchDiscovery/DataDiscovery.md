@@ -1,5 +1,5 @@
-## Data Discovery
-### Instructions
+# Data Discovery
+## Instructions
 - Produce a numbered list for each of the Required Outputs below.
 - Each numbered list should contain information pulled directly from the source file.
 - Format the numbered list in a code block and follow the example below.
@@ -37,6 +37,16 @@ Numbering Recommendations for User Selection
 >    - “Do you want to accept all Terms and Definitions, specify which numbers to accept (e.g., 1, 3, 5), or propose further edits?”
 > - When the user specifies numbers, implement only those numbered recommendations and disregard or defer the others.
 
+## Citation Format (Citations column only)
+
+Citation Format (Citations column only): Required Pattern (single citation): (Source: <filename.ext>, "<exact line number(s) in Source File>")
+
+Rules:
+
+Capitalization: “Source” capital S; filename exactly as in source.
+Comma: Place a comma after the filename.ext.
+Reuse: The same citation may be reused across multiple rows when the same excerpt supports multiple concepts/questions.
+
 ### Data Source vs Data Element Differentiation Rules:
 - Data Source / Application: A system, service, repository, platform, tool, database, API, queue, or external partner interface that produces, stores, or consumes sets of data. Represents a macro container or integration endpoint (e.g., “Claims Adjudication System”, “Document Repository API”).
 - Data Element: An atomic field, derived field, code, identifier, flag, status, value range, or calculable metric (e.g., “Claim Priority”, “EP Code”, “Submission Timestamp”).
@@ -45,7 +55,7 @@ Numbering Recommendations for User Selection
   - Every Data Element line should be mappable to at least one Data Source (cite the source file excerpt mentioning both when available).
   - If a Data Element is derived from multiple Data Sources, cite all relevant excerpts separated by semicolons.
 
-### Data Source Guardrails
+## Data Source Guardrails
 
 Data Source: Any origin of data (system of record, operational system, transactional store, API/service, file feed, partner interface) that supplies information consumed directly or indirectly by the product's workflows, logic, validation, reporting, or governance controls.
 
@@ -74,7 +84,7 @@ Do NOT consider as a data source if:
 
 ---
 
-### Data Element Guardrails:
+## Data Element Guardrails:
 
 Data Element: An atomic, discrete unit of information (field, attribute, flag, KPI, status code, identifier, timestamp, calculated value, derived metric) that:
 - Is stored, transmitted, displayed, validated, transformed, or audited
