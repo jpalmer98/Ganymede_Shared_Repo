@@ -1,44 +1,36 @@
 # Edge Case Discovery
 ## Instructions
-Step 1:
-- Produce a table for the Required Output below.
-- The table should contain information pulled directly from the source file.
-- Proceed to step 2 automatically, without user intervention or confirmation.
+- Produce a numbered list for each of the Required Outputs below.
+- Each numbered list should contain information pulled directly from the source file.
+- Format the numbered list in a code block and follow the example below.
 
 Required Outputs
-- Based on the attached Source File, create a table titled 'Edge Cases' with the following columns:
-  - Columns: Edge Case | Trigger / Condition | Limitation | Clarifying Question | Citations
+- Based on the attached Source File, create a numbered list titled 'Edge Cases' with the following information:
+  - Edge Case
+  - Description
+  - Citations
 
-Step 2: Refinement
-
-- Use the format below to provide recommendations to refine the questions for each category.
-  - Do not paraphrase or truncate original text only update text in clarifying questions, recommendations, reasoning.
-- For refinement, format your responce within a code block and following the example below.
-- Use only `#` for original text, `>` for recommendations, and `>>` for reasoning.
-- Continue to work through a category until you deduce that sufficient changes were made and revisions were shared.
-
-Example:
+**Example:**
 
 ```
-Summary Recommendations
+## Terms and Definitions
 
-1.
-# Example original text.
-> Suggest rewording for clarity.
->> Improves understanding for new stakeholders.
+1. Edge Case: No Metadata is provided for the document.
+> Description: In some cases, a document is uploaded to Claim Evidence without the required Metadata.
+>> Citation: ExampleArtiface.md, Line 9-15
 
-2.
-# Another original text.
-> Remove redundant phrase.
->> Reduces wordiness. Numbering Recommendations for User Selection
+2. Edge Case: No Tracked Items associated to a Claim
+> Description: In some cases, there are no Tracked Items associated to a Claim, which leads to the process ending without matching the document to a Tracked Item.
+>> Citation: ExampleArtifact.md, Line 80-82; ExampleArtifact.md, Line 88-90
 ```
 
-- Number each recommendation sequentially, starting at 1, within each discovery sub-category.
-- If a recommendation is edited, removed, or new ones are added before user acceptance, preserve original numbers for traceability. Do not renumber within an active session.
-- After presenting recommendations, prompt the user:
-- “Do you want to accept all recommendations, specify which numbers to accept (e.g., 1, 3, 5), or propose further edits?”
-- When the user specifies numbers, implement only those numbered recommendations and disregard or defer the others.
-- Do not reproduce the table(s) after the user has specified which recommendations they accept. Only pull the accepted recommenations into the Questions.md file.
+Numbering Recommendations for User Selection
+
+> - Number each Edge Case sequentially, starting at 1.
+> - After presenting Edge Cases, prompt the user:  
+>    - “Do you want to accept all Edge Cases and Descriptions, specify which numbers to accept (e.g., 1, 3, 5), or propose further edits?”
+> - If a recommendation is edited, removed, or new ones are added before user acceptance, preserve original numbers for traceability. Do not renumber within an active session.
+> - When the user specifies numbers, implement only those numbered recommendations and disregard or defer the others.
 
 ## Edge Case Guardrails
 - Edge Case: A low-frequency, atypical, boudary, degraded, concurrent, or anomalous condition that:
