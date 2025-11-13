@@ -1,8 +1,8 @@
 # Edge Case Discovery
 ## Instructions
-- Produce a table for each of the Required Outputs below.
-- Each table should contain information pulled directly from the source file.
-- After the table(s) is produced, follow the instructions provided in Step 3 of the orchestrating prompt.
+- Produce a table for the Required Output below.
+- The table should contain information pulled directly from the source file.
+- After the table is produced, follow the instructions provided in Step 3 of the orchestrating prompt.
 
 ### Required Outputs
 - Based on the attached Source File, create a table titled 'Edge Cases' with the following columns:
@@ -26,7 +26,6 @@
 - Do NOT label as Edge Case if:
   - It is a documented, high-frequency alternate business rule or standard variation.
   - It represents normal user progression through approved optional paths.
-Handling is identical to baseline (no special logic, messaging, or branching needed).
   - It is purely a future enhancement (added value rather than risk mitigation).
   - The “scenario” is speculative with no credible trigger source, data evidence, or stakeholder validation.
   - It duplicates another already defined edge with only superficial difference (e.g., formatting vs casing when both derive from the same validation rule).
