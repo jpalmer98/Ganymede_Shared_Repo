@@ -1,4 +1,4 @@
-# 2. MVP Discovery
+# Edge Case Discovery
 ## Instructions
 - Produce a table for each of the Required Outputs below.
 - Each table should contain information pulled directly from the source file.
@@ -7,8 +7,6 @@
 ### Required Outputs
 - Based on the attached Source File, create a table titled 'Edge Cases' with the following columns:
   - Columns: Edge Case | Trigger / Condition | Handling Described | Limitation | Clarifying Question | Citations
-- Based on the attached Source File, create a table titled 'Enhancements' with the following columns:
-  - Columns: Item | Category (Feature / Data / Scaling / Governance / UX) | Benefit | Why Not MVP | Clarifying Question | Citations"
  
 ## Edge Case Guardrails
 - Edge Case: A low-frequency, atypical, boudary, degraded, concurrent, or anomalous condition that:
@@ -32,20 +30,3 @@ Handling is identical to baseline (no special logic, messaging, or branching nee
   - It is purely a future enhancement (added value rather than risk mitigation).
   - The “scenario” is speculative with no credible trigger source, data evidence, or stakeholder validation.
   - It duplicates another already defined edge with only superficial difference (e.g., formatting vs casing when both derive from the same validation rule).
-
-## Enahancements Guardrails
-- Enhancement (Post-MVP Candidate): A feature, capability, optimization, or refinement that:
-  - Improves scalability, usability, governance, quality, automation, resilience, interoperability, or stakeholder experience
-  - Can be deferred without causing regulatory risk, data integrity failure, operational blockage, or unacceptable user frustration in the MVP phase
-- Must meet the following to be labeled Enhancement:
-  - Core Flow Independence: The MVP's primary workflows still succeed without it.
-  - Risk Neutrality: Deferral does not introduce material compliance, security, privacy, or statutory risk.
-  - Deferability: Implementation can occur in a later increment without high rework cost.
-  - Incremental Value: Provides measurable improvement beyond baseline operation.
-- If any of the following are true, NOT enhancement:
-  - Provides mandatory regulatory or statutory content, configuration, formatting, or required delivery/interaction channels.
-  - Required to establish baseline audit logging, access control, protection of sensitive data (e.g., privacy/security safeguards), or minimum retention standards.
-  - Necessary to prevent data corruption or integrity loss between foundational platform components or services.
-  - Needed to achieve baseline system availability, performance targets, or minimal accessibility compliance (e.g., meeting agreed accessibility level for launch).
-  - Removes a blocker in a primary user journey (i.e., without it a user cannot complete an essential end‑to‑end workflow step).
-  - Prevents manual effort that would exceed agreed operational thresholds (e.g., violates SLAs, introduces unsustainable workload, or creates material operational risk).
