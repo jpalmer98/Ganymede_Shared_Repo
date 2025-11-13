@@ -16,8 +16,36 @@ Required Outputs
   - Citations
 
 Step 2: Refinement
-- After the numbered list(s) is produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
+- After the numbered lists are produced, prompt the user to accept, reject, or refine the definitions or descriptions. The user may also ask follow up questions. Do not proceed to the next step until the user accepts.
+- Use the format below to provide recommendations to refine the questions for each category. 
+  - Do not paraphrase or truncate original text only update text in clarifying questions, recommendations, reasoning.
+- For refinement, format your responce within a code block and following the example below.
+- Use only `#` for original text, `>` for recommendations, and `>>` for reasoning.
+- Continue to work through a category until you deduce that sufficient changes were made and revisions were shared.
+- Ask the user if they would like to continue refining within that category or if they would like to refine within another category.
 
+**Example:**
+
+```
+## Summary Recommendations
+
+1.
+# Example original text.
+> Suggest rewording for clarity.
+>> Improves understanding for new stakeholders.
+
+2.
+# Another original text.
+> Remove redundant phrase.
+>> Reduces wordiness.
+```
+## Numbering Recommendations for User Selection
+
+> - Number each recommendation sequentially, starting at 1, within each discovery sub-category.
+> - If a recommendation is edited, removed, or new ones are added before user acceptance, preserve original numbers for traceability. Do not renumber within an active session.
+> - After presenting recommendations, prompt the user:  
+>    - “Do you want to accept all recommendations, specify which numbers to accept (e.g., 1, 3, 5), or propose further edits?”
+> - When the user specifies numbers, implement only those numbered recommendations and disregard or defer the others.
 
 ### Data Source vs Data Element Differentiation Rules:
 - Data Source / Application: A system, service, repository, platform, tool, database, API, queue, or external partner interface that produces, stores, or consumes sets of data. Represents a macro container or integration endpoint (e.g., “Claims Adjudication System”, “Document Repository API”).
