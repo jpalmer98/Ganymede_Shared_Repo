@@ -63,7 +63,7 @@ For example:
 
 Step 3: Completion & Wrap-up
 - Once the user confirms that they are done with a category:
-  - Preserve original numbers for traceability. Do not renumber within an active session.
+  - Always preserve and display the original discovery numbering for each item when recording accepted recommendations in session artifacts (e.g., Questions.md), regardless of acceptance order or count.
   - Populate the `Questions.md` file with all of the approved questioned generated during the chat session.
   - Populate the `Definitions.md` file with all of the approved terms (Data Sources and Data Elements) and definitions generated during the chat session.
   - Preserve original numbers for traceability. Do not renumber within an active session.
