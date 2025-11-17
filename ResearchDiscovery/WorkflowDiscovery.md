@@ -4,6 +4,7 @@ Step 1:
 - Produce a table for each of the Required Outputs below.
 - Each table should contain information pulled directly from the source file.
 - Proceed to step 2 automatically, without user intervention or confirmation.
+- When producing workflow lists or tables, enumerate each operational step or decision as a single, discrete, atomic action. This will ensure a truly sequential, procedural listing that directly mirrors the actual process logic, trigger, or check, per the level of detail shown in the provided example.
 
 Required Outputs
 - Based on the attached Source Files, create a table titled 'Current State Workflow' with the following columns:
