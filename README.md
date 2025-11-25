@@ -1,9 +1,6 @@
 
 # Research & Discovery SOP
 
-<img width="7320" height="1860" alt="Research and Discovery" src="https://github.com/user-attachments/assets/0bf16f06-b4dd-4c59-9d46-f8f74bc0e9d5" />
-
-
 ## Steps to Run Prompt Chain
 
 ### 1. Copy the content of 'orch-discovery.md'
@@ -24,6 +21,8 @@
 ### 4. Submit
 
 ## How It Works
+
+<img width="7320" height="1860" alt="Research and Discovery" src="https://github.com/user-attachments/assets/0bf16f06-b4dd-4c59-9d46-f8f74bc0e9d5" />
 
 The Input outlined here should produce one markdown (.md) file.
 - The first two outputs will be titled `Questions.md` and `Definitions.md`. These files will be created as markdown files and viewable in the Workbench with a one sentece description of the purpose of the file.
