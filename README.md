@@ -1,7 +1,7 @@
 
 # Research & Discovery SOP
 
-![Uploading Research and Discovery.png…]()
+<img width="7320" height="1860" alt="Research and Discovery" src="https://github.com/user-attachments/assets/0bf16f06-b4dd-4c59-9d46-f8f74bc0e9d5" />
 
 
 ## Steps to Run Prompt Chain
