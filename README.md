@@ -1,6 +1,9 @@
 
 # Research & Discovery SOP
 
+![Uploading Research and Discovery.png…]()
+
+
 ## Steps to Run Prompt Chain
 
 ### 1. Copy the content of 'orch-discovery.md'
