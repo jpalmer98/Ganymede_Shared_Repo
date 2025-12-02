@@ -15,10 +15,10 @@ You are running a modular prompt chain for use case extraction and requirements 
 ## Workflow Steps
 
 1. **Step 1 (Summary Extraction):**  
-   Use `02_structured_summary.md` to produce a structured summary artifact from the input files.
+   Use `structured_summary.md` to produce a structured summary artifact from the input files.
 
 2. **Step 2 (Requirements Q&A):**  
-   Use `03_requirements_questions.md` to synthesize a requirements analysis by answering the 5 business analysis questions.
+   Use `requirements_questions.md` to synthesize a requirements analysis by answering the 5 business analysis questions.
 
 3. **Step 3 (Use Case Name Selection/Workflow Decomposition):**  
 After completing Step 2 and providing the requirements analysis to the user, prompt:  
@@ -26,7 +26,7 @@ After completing Step 2 and providing the requirements analysis to the user, pro
 Wait for user input, then proceed.
 
 4. **Step 4 (Use Case Generation):**  
-   Use `04_generate_usecases.md` to create one markdown file per Use Case, referencing the summary and requirements analysis.
+   Use `generate_usecases.md` to create one markdown file per Use Case, referencing the summary and requirements analysis.
 
 ## Final Output
 
