@@ -49,3 +49,46 @@ For each step:
 - Copilot will pull the questions and/or definitions into a numbered list.
 - The user can accept, refine, or reject questions/definitions, by number, and Copilot will update the list.
 - When the user approves a list of questions/definitions, they are added to the `Questions.md` file or `Definitions.md` file, respectively.
+
+## Usage Instructions
+
+### For Interactive Analysis
+
+**Recommended Approach: Focus on one Discovery Stage at a time with approval**
+
+1. **Initial Request**: Follow the instructions above to kick off the Interactive Discovery Session.
+
+2. **Agent starts with creating three markdown files** (Questions.md, EdgeCases.md, and Defintions.md).
+
+3. **User reviews markdown files to ensure each is correctly created and populated**
+
+4. **User approves**: Give explicit approval to process
+
+```
+Looks good! Proceed.
+```
+OR request changes:
+```
+Can you add in the attached Artifact?
+```
+
+5. **Agent proceeds to Discovery Category selection**
+
+6. **User selects Category**: Simply respond with the number or full name of the category you wish to work on.
+
+```
+1.
+```
+OR
+```
+Workflow Discovery
+```
+
+7. Proceed through each Discovery Category
+
+**Benefits of this approach:**
+- Better quality control - catch issues early
+- Reduced token usage per conversation
+- User stays engaged and informed
+- Easier to manage and review
+- Can course-correct before issues cascade
